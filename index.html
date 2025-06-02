@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo"></div>
+      <div>
+        <!-- Desktop Navigation -->
+        <ul class="nav-links">
+          <li><a href="#profile">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#blog">Blog</a></li> <!-- Added Blog link -->
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="jeneal-nav">
+      <div class="logo"></div>
+      <div class="jeneal-menu">
+        <div class="jeneal-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <!-- Mobile Navigation -->
+          <li><a href="#profile" onclick="toggleMenu()">Home</a></li>
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#blog" onclick="toggleMenu()">Blog</a></li> <!-- Added Blog link -->
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <img src="./assets/Jeneal_HomeProfile-removebg-preview.png" alt="Jeneal profile picture" class="profile-pic" />
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Jeneal Martinez</h1>
+        <p class="section__text__p2">Graphic Designer</p>
+        <div class="btn-container">
+          <a href="./assets/JenealMartinez_CV_20250502_150521_0000.pdf" download="JenealMartinez-Resume.pdf" class="btn btn-color-2">
+            Download CV
+          </a>
+        </div>
+        <hr class="line-design" />
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://linkedin.com/in/jenealmartinez'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/Neal701'"
+          />
+          <img
+            src="./assets/facebook.png"
+            alt="My Facebook profile"
+            class="icon"
+            onclick="location.href='https://www.facebook.com/share/15LpdYtJxr/'"
+          />
+          <img
+            src="./assets/instagram.png"
+            alt="My Instagram profile"
+            class="icon"
+            onclick="location.href='https://www.instagram.com/mjeneal?igsh=MXBxdzR1djFjbjJuOQ=='"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>2 years<br />Frontend/Backend Development</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>2 Year Program<br />Information Technology</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Graduate with a college degree of Information Technology at STI Alaminos, I have developed 
+              skills in Microsoft Office tools, multitasking, graphic designs, programming, and managing system development.
+              Created a System for Inventory Accuracy and Electronic Device Services.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/html.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/css.webp"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/csharp.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>C#</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/javvaaa.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/python.webp"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/ssms.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SSMS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Graphic Designs</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/canva.jpeg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Canva</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/adobeps.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Adobe Photoshop</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/figma.jpg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Figma</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/git.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>   
+                  <h3>Git</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-1.jpg"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">IEDS Hania Merchandise System</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Neal701/IEDS_Hania_Group4'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('./assets/project-1.jpg')"
+              >
+                Preview
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-2.jpg"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Animal Trivia</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('./assets/project-2.jpg')"
+              >
+                Preview
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-3.jpg"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Basketball Layout</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('./assets/project-3.jpg')" 
+              >
+                Preview
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+     <section id="blog">
+      <p class="section__text__p1">Read My</p>
+      <h1 class="title">Blog</h1>
+      <div class="blog-container" style="cursor:pointer;" onclick="window.open('blog.html', '_blank')">
+        <div class="blog-post" style="text-align:center;">
+          <h2 class="blog-title">📝 My Blog Collection</h2>
+          <p class="blog-summary">
+            Click here to read about:<br>
+            <strong>How I Designed My Portfolio</strong>,<br>
+            <strong>Tips for Aspiring Graphic Designers</strong>,<br>
+            <strong>Island Quest: Hundred Islands Edition</strong>,<br>
+            <strong>My Journey in STI Alaminos as a Top Student</strong>,<br>
+            <strong>Life as an Intern at the City ENRO Alaminos City</strong>
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+  <p class="section__text__p1">Get in Touch</p>
+  <h1 class="title">Contact Me</h1>
+  <div class="contact-flex-container">
+    <div class="contact-info-upper-container">
+      <!-- Profile Photo -->
+      <div class="contact-photo-container" style="width:100%; display:flex; flex-direction:column; align-items:center;">
+        <img
+          src="./assets/Profile-Jeneal (2).png"
+          alt="Jeneal Martinez"
+          class="contact-photo"
+          style="width: 100%; max-width: 180px; border-radius: 1rem; object-fit: cover; display: block; margin: 0 auto;"
+        />
+      </div>
+      <div class="contact-info-container">
+        <img
+          src="./assets/email.png"
+          alt="Email icon"
+          class="icon contact-icon email-icon"
+        />
+        <p style="word-break:break-all;">
+          <a href="mailto:jeneal13martinez@gmail.com">jeneal13martinez@gmail.com</a>
+        </p>
+      </div>
+      <div class="contact-info-container">
+        <img
+          src="./assets/linkedin.png"
+          alt="LinkedIn icon"
+          class="icon contact-icon"
+        />
+        <p><a href="https://linkedin.com/in/jenealmartinez">LinkedIn</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img
+          src="./assets/icons8-phone-50.png"
+          alt="Phone icon"
+          class="icon contact-icon"
+        />
+        <p><a href="tel:+639916696711">+63 991 669 6711</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img
+          src="./assets/icons8-location-50.png"
+          alt="Location icon"
+          class="icon contact-icon"
+        />
+        <p>Infanta, Pangasinan, Philippines</p>
+      </div>
+      <div style="flex:1"></div>
+    </div>
+    <!-- Contact Form Start -->
+    <form class="contact-form" action="https://formsubmit.co/jeneal13martinez@gmail.com" method="POST">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+      </div>
+      <!-- Optional: Prevent spam -->
+      <input type="hidden" name="_captcha" value="false">
+      <button type="submit" class="btn btn-color-2">Send Message</button>
+    </form>
+    <!-- Contact Form End -->
+  </div>
+</section>
+
+    <footer>
+      <p> &#169; 2025 Jeneal Martinez.. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+    <script>
+function openBlogModal(post) {
+  var content = {
+    portfolio: `
+      <h2>📝 How I Designed My Portfolio</h2>
+      <p><strong>📅 May 2025</strong></p>
+      <p>Designing this portfolio website was a fun and meaningful project for me. I wanted something that truly reflected my personality and skills—not just as a developer, but also as a graphic designer.</p>
+      <h3>🧠 Planning the Structure</h3>
+      <ul>
+        <li>Home</li>
+        <li>About Me</li>
+        <li>Experience</li>
+        <li>Blog</li>
+        <li>Contact</li>
+      </ul>
+      <p>Then I drafted a layout sketch on paper and imagined how I wanted each section to flow visually. Keeping it simple and clean was my goal.</p>
+      <h3>💻 Tools I Used</h3>
+      <ul>
+        <li><strong>Visual Studio Code:</strong> My main coding tool. I built the entire site using HTML, CSS, and JavaScript.</li>
+        <li><strong>CSS Flexbox & Media Queries:</strong> These helped me make sure my site looks great on both desktop and mobile.</li>
+        <li><strong>JavaScript:</strong> I used it for smooth scroll effects and simple interactivity.</li>
+      </ul>
+    `,
+    design: `
+      <h2>📝 Tips for Aspiring Graphic Designers</h2>
+      <p><strong>📅 April 2025</strong></p>
+      <p>Getting into graphic design can feel intimidating at first, but with the right tools and mindset, it becomes exciting and rewarding. Here’s what I’ve learned:</p>
+      <h3>🛠 Tools That Help Me</h3>
+      <ul>
+        <li><strong>Canva:</strong> Great for fast and stylish designs like social posts, flyers, and presentations.</li>
+        <li><strong>Photoshop:</strong> I use it for more advanced tasks like photo manipulation, detailed edits, and custom graphics.</li>
+      </ul>
+      <h3>💡 Practical Tips</h3>
+      <ol>
+        <li><strong>Master the Basics:</strong> Learn layout principles—like alignment, contrast, and whitespace. Canva is actually a good tool to practice this because it teaches layout visually.</li>
+        <li><strong>Practice with Real-World Projects:</strong> Create mock logos, posters, or Instagram posts. The more you create, the more confident you become.</li>
+        <li><strong>Save Your Work:</strong> Make a personal archive of all your designs. You’ll see your improvement and might even reuse past ideas in future projects.</li>
+        <li><strong>Watch Tutorials:</strong> YouTube is full of design tips, Canva hacks, and Photoshop walkthroughs. You don’t need to take a course—just be curious and keep learning.</li>
+        <li><strong>Accept Feedback:</strong> Don’t be afraid to ask friends or post in Facebook groups for opinions. Feedback will help you grow faster than working in a vacuum.</li>
+      </ol>
+      <blockquote>🌟 “You don’t need expensive tools to be a good designer—just creativity, curiosity, and consistency.”</blockquote>
+    `
+  };
+  document.getElementById('blogModalBody').innerHTML = content[post];
+  document.getElementById('blogModal').style.display = 'flex';
+}
+function closeBlogModal() {
+  document.getElementById('blogModal').style.display = 'none';
+}
+</script>
+  </body>
+</html>
